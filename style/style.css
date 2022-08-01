@@ -62,4 +62,7 @@ justify-content: center;
     .main-container {
       flex-direction: column;
     }
+    .main-container>section{
+        flex-basis: 90%;
+    }
   }
