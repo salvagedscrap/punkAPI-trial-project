@@ -10,10 +10,11 @@ html{
     margin: 0;
 }
 body{
-   
+   background-image: linear-gradient(to left top, blue, red); ;
+   color: bisque;
 }
 img{
-    width: 20%;
+    width: 50%;
     display: block;
 }
 
@@ -49,3 +50,13 @@ justify-content: center;
 .main-container>section{
     flex-basis: 40%;
 }
+
+
+@media screen and (max-width: 600px) {
+    html{
+        font-size: 55%;
+    }
+    .main-container {
+      flex-direction: column;
+    }
+  }
