@@ -1,3 +1,51 @@
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+   
+}
 img{
     width: 20%;
+    display: block;
+}
+
+select{
+    font-size: 2rem;
+    margin: 4rem 0;
+}
+
+h1{
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 4rem;
+}
+h2{
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+p{
+    font-size: 1.8rem;
+    margin: 1.4rem 0;
+    
+}
+span{
+    font-size: 1.6rem;
+    margin: 1rem 0;
+}
+.main-container{
+margin: 10rem 0;
+padding: 10rem;
+display: flex;
+justify-content: center;
+}
+.main-container>section{
+    flex-basis: 40%;
 }
