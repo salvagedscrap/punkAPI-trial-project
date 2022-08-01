@@ -11,7 +11,10 @@ html{
 }
 body{
    background-image: linear-gradient(to left top, blue, red); ;
+   background-size: cover;
+   background-repeat: no-repeat;
    color: bisque;
+   min-height: 100vh;
 }
 img{
     width: 50%;
