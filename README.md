@@ -11,7 +11,7 @@ https://salvagedscrap.github.io/punkAPI-trial-project/
 
 How It's Made:
 
-Tech used: HTML, CSS, JavaScript, Framework of choice
+Tech used: HTML, CSS, JavaScript
 
 I used a public API to recieve data when change on the select menu occurs.
 
